@@ -6,7 +6,8 @@ Register
 @endsection
 
 @section('content')
-<form method="POST" action="/auth/register">
+{!!Form::open(['url'=>'auth/register','id'=>'createPresentation','method'=>'POST']) !!}
+<!--<form method="POST" action="http://localhost:10101/blog/public/auth/register">-->
     {!! csrf_field() !!}
 
     <div>
@@ -32,5 +33,6 @@ Register
     <div>
         <button type="submit">Register</button>
     </div>
-</form>
+<!--</form>-->
+ {!! Form::close() !!}
 @endsection

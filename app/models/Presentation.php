@@ -8,7 +8,7 @@ class Presentation extends Model
 {
     //
     protected $table = 'presentations';
-    protected $fillable = array('presentationName','presentationUniqueName','published');
+    protected $fillable = array('presentationName','presentationUniqueName','user_id','published');
     
     public function scopePublished($query){
         return $query->where('published',1);

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use Auth;
 use App\models\Presentation;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -47,13 +47,16 @@ class PresentationsController extends Controller
     public function store(Requests\createPresentation $request)
     {
         //
+        $user = Auth::User();
         $input = Request::all();
         //here we recreate missing data
         $input['presentationUniqueName'] = $input['presentationName'];
         $input['published'] = 0;
-        //$input['created_at'] = Carbon::now();
-        Presentation::create($input);
-        return redirect('presentations');
+        $input['user_id']= (int) $user['id'];
+        //here we insert data
+        $presentation = Presentation::create($input);
+        //echo($presentation->id);
+        return redirect('presentations/show/'.$presentation->id);
     }
 
     /**

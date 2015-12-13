@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('home', function () {
+    echo 'welcome home';
+});
+
 Route::get('about', function () {
 	$data = array(
 		'greeting'	=>	'Hello ',
@@ -27,14 +31,15 @@ Route::get('about', function () {
 //
 //Route::get('presentations/show/{id}','PresentationsController@show');
 
-Route::get('presentations','PresentationsController@index');
-Route::get('presentations/create','PresentationsController@create');
-Route::get('presentations/published','PresentationsController@published');
-Route::get('presentations/unpublished','PresentationsController@unpublished');
-Route::get('presentations/{id}','PresentationsController@show');
-Route::post('presentations','PresentationsController@store');
+Route::get('presentations',['middleware' => 'auth','uses'=>'PresentationsController@index']);
+Route::get('presentations/create',['middleware' => 'auth','uses'=>'PresentationsController@create']);
+Route::get('presentations/published',['middleware' => 'auth','uses'=>'PresentationsController@published']);
+Route::get('presentations/unpublished',['middleware' => 'auth','uses'=>'PresentationsController@unpublished']);
+Route::get('presentations/{id}',['middleware' => 'auth','uses'=>'PresentationsController@show']);
+Route::post('presentations',['middleware' => 'auth','uses'=>'PresentationsController@store']);
 
-Route::get('presentations/edit/{id}','PresentationsController@edit');
+Route::get('presentations/edit/{id}',['middleware' => 'auth','uses'=>'PresentationsController@edit']);
+Route::get('presentations/show/{id}',['middleware' => 'auth','uses'=>'PresentationsController@show']);
 
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
@@ -44,3 +49,9 @@ Route::get('auth/logout', 'Auth\AuthController@getLogout');
 // Registration routes...
 Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
+
+Route::get('auth/logout',['middleware' => 'auth', function(){
+   Auth::logout(); 
+   echo 'Good bye';
+}]);
+

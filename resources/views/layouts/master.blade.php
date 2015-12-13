@@ -11,7 +11,8 @@
                 <a href= {{ URL::to('/presentations') }}>Presentations</a>   
                 <a href= {{ URL::to('/presentations/published') }}>Presentations Published</a>   
                 <a href= {{ URL::to('/presentations/unpublished') }}>Presentations Unpublished</a>   
-                <a href= {{ URL::to('/presentations/create') }}>Presentations Create</a>                    
+                <a href= {{ URL::to('/presentations/create') }}>Presentations Create</a>       
+                <a href= {{ URL::to('/auth/logout') }}>LogOut</a>      
             </div>
             <div class='content'>
                 @yield('content')

@@ -6,7 +6,8 @@ Login
 @endsection
 
 @section('content')
-<form method="POST" action="/auth/login">
+{!!Form::open(['url'=>'auth/login','id'=>'createPresentation','method'=>'POST']) !!}
+<!--<form method="POST" action="http://localhost:10101/blog/public/auth/login">-->
     {!! csrf_field() !!}
 
     <div>
@@ -26,5 +27,6 @@ Login
     <div>
         <button type="submit">Login</button>
     </div>
-</form>
+<!--</form>-->
+ {!! Form::close() !!}
 @endsection
