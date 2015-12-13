@@ -18,7 +18,12 @@ class PresentationsCreateTable extends Migration
 			$table->string('presentationName',250);
 			$table->string('presentationUniqueName',250)->unique();
 			$table->boolean('published')->default(0);
+                        $table->integer('user_id')->unsigned();
 			$table->timestamps();	
+                        
+                        $table->foreign('user_id')
+                                ->references('id')
+                                ->on('users');
 		});
     }
 

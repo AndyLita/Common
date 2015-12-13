@@ -17,4 +17,8 @@ class Presentation extends Model
     public function scopeUnpublished($query){
         return $query->where('published',0);
     }
+    
+    public  function user(){
+        return $this->belongsTo('App\User');
+    }
 }
