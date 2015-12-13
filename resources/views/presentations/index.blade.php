@@ -34,7 +34,8 @@
             {{ $presentation->updated_at }}
         </td>      
         <td>
-            <a href= {{ URL::to('/presentations/edit/'.$presentation->id) }}>View</a>  
+            <a href= {{ URL::to('/presentations/show/'.$presentation->id) }}>View</a>  
+            <a href= {{ URL::to('/presentations/edit/'.$presentation->id) }}>Edit</a>  
         </td>         
     </tr>
     <?php } ?> 

@@ -15,16 +15,27 @@ body{
     background-color: #eeeeee;
 }
 
-div.menu{
+div.content, div.menu{
     margin: 0 auto; 
     width:80%;
-    font-size: 1em;
-    padding-bottom: 0.5em;
-    padding-top: .5em;
-    
 }
 
 div.content{
+    width:80%;
+    font-size: 1em;
+}
+
+div.menu{
+    font-size: 1em;
+    padding-bottom: 0.5em;
+    padding-top: .5em;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+div.content{
+    padding-top: 4em;
     margin: 0 auto; 
     width:80%;
     font-size: 1em;
@@ -63,15 +74,23 @@ div.content h1{
 
 div.content table{
     width: 100%;
+    line-height: 1.5em;
 }
 
 div.content table th{
     text-align: left;
 }
 
+div.content table th, div.content table td{
+    padding: .25em;
+}
+
 div.content table th.centred, div.content table td.centred{
     text-align: center;
 }
+
+div.content table tr:nth-child(even) {background: #EFEFEF}
+div.content table tr:nth-child(odd) {background: #FFF}
 
 .error{
     color: #cc0033;
@@ -95,4 +114,8 @@ a, a:visited{
 
 a:hover{
     color: #0000cc;
+}
+
+.hidden{
+    display: none;
 }
