@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Dec-2015, 02:23:07
+    Author     : andy.lita
+*/
+*{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+div.menu{
+    margin: 0 auto; 
+    width:80%;
+    font-size: 1em;
+    padding-bottom: 0.5em;
+    padding-top: .5em;
+    
+}
+
+div.content{
+    margin: 0 auto; 
+    width:80%;
+    font-size: 1em;
+}
+
+div.content select, div.content input[type="text"], div.content input[type="submit"]{
+    font-size: .9em;
+    padding: .2em;
+    width: 20em;
+}
+
+div.content select, div.content input[type="text"]:focus {
+    outline: #000000;
+    -moz-box-shadow:    0 0 10px #dddddd;
+    -webkit-box-shadow: 0 0 10px #dddddd;
+    box-shadow: 0 0 10px #dddddd;
+}
+
+div.content input[type="submit"]{
+  background-image: -webkit-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: -moz-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: -ms-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: -o-linear-gradient(top, #eeeeee, #dddddd);
+}
+
+div.content input[type="submit"]:hover{
+  background-image: -webkit-linear-gradient(top, #dddddd, #cccccc);
+  background-image: -moz-linear-gradient(top, #dddddd, #cccccc);
+  background-image: -ms-linear-gradient(top, #dddddd, #cccccc);
+  background-image: -o-linear-gradient(top, #dddddd, #cccccc);
+}
+
+div.content h1{
+    font-size: 1.2em;
+}
+
+div.content table{
+    width: 100%;
+}
+
+div.content table th{
+    text-align: left;
+}
+
+div.content table th.centred, div.content table td.centred{
+    text-align: center;
+}
+
+.error{
+    color: #cc0033;
+    clear:left;
+    padding-left: 0.5em;
+}
+
+div.content input[type="text"].error{
+    border: solid 1px #cc0033;
+    background-color: #ffcccc;
+}
+
+div.error input.input[type="text"]{
+    background-color: #ffcccc;
+}
