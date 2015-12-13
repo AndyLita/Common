@@ -1,9 +1,9 @@
 $().ready(function(){
     $(document).on('mouseover','.menu',function(){
-        $('.hidden').show();
+        $('.submenu').show();
     });
     
     $(document).on('mouseout','.menu',function(){
-        $('.hidden').hide();
+        $('.submenu').hide();
     });
 });
