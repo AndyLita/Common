@@ -50,7 +50,8 @@ class PresentationsController extends Controller
         $user = Auth::User();
         $input = Request::all();
         //here we recreate missing data
-        $input['presentationUniqueName'] = $input['presentationName'];
+        $input['presentationUniqueName'] = preg_replace("/[^a-zA-Z0-9]/", "", $input['presentationName']);
+        $input['presentationUniqueName'] = strtolower(str_replace(' ', '', $input['presentationUniqueName']));
         $input['published'] = 0;
         $input['user_id']= (int) $user['id'];
         //here we insert data

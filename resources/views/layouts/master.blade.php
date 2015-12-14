@@ -34,12 +34,7 @@
                     <li><a href= {{ URL::to('/auth/logout') }}>LogOut</a> </li>
                 </ul>                    
             </div>
-        </div>        
-        <div class="notification positive">
-            <div class="messageBox">
-                @yield('notification')
-            </div>
-        </div>        
+        </div>      
         <div class="wrapper">
             <div class='content'>
                 @yield('content')
