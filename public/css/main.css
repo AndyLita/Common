@@ -80,30 +80,10 @@ div.menu ul ul.submenu{
     border: 0;
 }
 
-div.notification{
-    margin-top: 2em;
-    height: 2.5em;
-    color:#ffffff;
-}
-
-div.notification div.messageBox{
-    width: 80%;
-    margin: 0 auto;
-/*    display: none;*/
-}
-
-.positive{
-    background-color: #66cc00;
-}
-
-.negative{
-    background-color: #cc0033;
-}
-
-
 div.content{
     margin: 0 auto; 
     font-size: 1em;
+    margin-top: 4em;
 }
 
 div.content select, div.content input[type="text"], div.content input[type="submit"]{
