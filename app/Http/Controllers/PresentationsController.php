@@ -23,9 +23,9 @@ class PresentationsController extends Controller
     public function index()
     {
         //
-        $presentations = Presentation::latest()->get()->paginate(2);
-	//return view('presentations.index',['presentations'=>$presentations]);
-        return Paginator::make($presentations,count($presentations,Input::get('limit')?:'2'));
+        $presentations = Presentation::latest()->get();
+	return view('presentations.index',['presentations'=>$presentations]);
+        //return Paginator::make($presentations,count($presentations,Input::get('limit')?:'2'));
     }
 
     /**
