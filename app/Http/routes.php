@@ -16,7 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('home', function () {
-    echo 'welcome home';
+    //echo 'welcome home';
+    Route::get('presentations',['middleware' => 'auth','uses'=>'PresentationsController@index']);
 });
 
 Route::get('about', function () {
@@ -52,6 +53,7 @@ Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 Route::get('auth/logout',['middleware' => 'auth', function(){
    Auth::logout(); 
-   echo 'Good bye';
+   //echo 'Good bye';
+   return View::make('auth.login');
 }]);
 

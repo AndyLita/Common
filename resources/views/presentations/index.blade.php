@@ -6,7 +6,7 @@
 
 @section('content')
 <h1>Current Presentations</h1>
-<table>
+<table class="displayTable">
     <tr>
         <th>ID</th>
         <th>Presentation Name</th>

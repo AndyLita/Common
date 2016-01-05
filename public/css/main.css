@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,800);
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -7,160 +8,185 @@ and open the template in the editor.
     Created on : 12-Dec-2015, 02:23:07
     Author     : andy.lita
 */
-*{
-    font-family: Arial, sans-serif;
+/* line 38, ../scss/main.scss */
+* {
+  font-family: 'Open Sans', sans-serif;
 }
 
-body{
-    background-color: #eeeeee;
+/* line 42, ../scss/main.scss */
+body {
+  background-color: whitesmoke;
 }
 
-div.wrapper{
-    width:80%;
+/* line 46, ../scss/main.scss */
+div.wrapper {
+  width: 90%;
 }
 
-div.wrapper, div.content, div.menu{
-    margin: 0 auto; 
+/* line 50, ../scss/main.scss */
+div.wrapper, div.content, div.menu {
+  margin: 0 auto;
 }
 
-div.content{
-    font-size: 1em;
+/* line 54, ../scss/main.scss */
+div.menu {
+  font-size: 1em;
+  padding-bottom: 0.5em;
+  padding-top: .5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(top, #fafafa, #eeeeee);
+  background-image: -moz-linear-gradient(top, #fafafa, #eeeeee);
+  background-image: -o-linear-gradient(top, #fafafa, #eeeeee);
+  background-image: linear-gradient(top, #fafafa, #eeeeee);
+  -webkit-box-shadow: 3px 3px 5px #636363;
+  -moz-box-shadow: 3px 3px 5px #636363;
+  box-shadow: 3px 3px 5px #636363;
+  border: solid 2px #dddddd;
+  border-top: 0;
+  width: 100%;
+}
+/* line 70, ../scss/main.scss */
+div.menu ul {
+  padding: 0;
+  margin: 0;
+  padding-left: .5em;
+  list-style-type: none;
+  line-height: 1.8em;
+  float: left;
+  display: inline-block;
+  width: 250px;
+  font-size: 1em;
+  border-right: solid 2px #dddddd;
+}
+/* line 81, ../scss/main.scss */
+div.menu ul.lastRight {
+  border-right: 0;
+}
+/* line 84, ../scss/main.scss */
+div.menu ul li {
+  white-space: nowrap;
+}
+/* line 87, ../scss/main.scss */
+div.menu ul.submenu {
+  display: none;
+  font-weight: 500;
+  font-size: 0.9em;
+  line-height: 2em;
+  border: 0;
 }
 
-div.menu{
-    font-size: 1em;
-    padding-bottom: 0.5em;
-    padding-top: .5em;
-    position:fixed;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    
-    background-image: -webkit-linear-gradient(top, #ffFFff, #eeEEee);
-    background-image: -moz-linear-gradient(top, #ffFFff, #eeEEee);
-    background-image: -ms-linear-gradient(top, #ffFFff, #eeEEee);
-    background-image: -o-linear-gradient(top, #ffFFff, #eeEEee);
-    
-    border: solid 2px #aaaaaa;
-    border-top: 0;
-    
-    -webkit-box-shadow: 3px 3px 5px #888888;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    3px 3px 5px #888888;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         3px 3px 5px #888888;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    
-    width: 100%;
+/* line 97, ../scss/main.scss */
+div.content {
+  margin: 0 auto;
+  font-size: 1em;
+  margin-top: 4em;
+}
+/* line 101, ../scss/main.scss */
+div.content h1 {
+  font-size: 1.2em;
+}
+/* line 104, ../scss/main.scss */
+div.content table.displayTable {
+  width: 100%;
+  line-height: 1.5em;
+}
+/* line 2, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/tables/_scaffolding.scss */
+div.content table.displayTable th {
+  text-align: center;
+  font-weight: bold;
+}
+/* line 6, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/tables/_scaffolding.scss */
+div.content table.displayTable td,
+div.content table.displayTable th {
+  padding: 2px;
+}
+/* line 8, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/tables/_scaffolding.scss */
+div.content table.displayTable td.numeric,
+div.content table.displayTable th.numeric {
+  text-align: right;
+}
+/* line 109, ../scss/main.scss */
+div.content table.displayTable tr:nth-child(even) {
+  background: #eeeeee;
+}
+/* line 110, ../scss/main.scss */
+div.content table.displayTable tr:nth-child(odd) {
+  background: #fafafa;
+}
+/* line 112, ../scss/main.scss */
+div.content table.displayTable th {
+  text-align: left;
+}
+/* line 114, ../scss/main.scss */
+div.content table.displayTable th.centred {
+  text-align: center;
+}
+/* line 118, ../scss/main.scss */
+div.content table.displayTable th, div.content table.displayTable td {
+  padding: .25em;
+}
+/* line 122, ../scss/main.scss */
+div.content table.displayTable td.centred {
+  text-align: center;
+}
+/* line 127, ../scss/main.scss */
+div.content select, div.content button, div.content input[type="text"], div.content input[type="email"], div.content input[type="password"], div.content input[type="submit"] {
+  font-size: .9em;
+  padding: .2em;
+  width: 20em;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 132, ../scss/main.scss */
+div.content select.error, div.content button.error, div.content input[type="text"].error, div.content input[type="email"].error, div.content input[type="password"].error, div.content input[type="submit"].error {
+  border: solid 1px #cc0033;
+  background-color: #ffe6e6;
+}
+/* line 137, ../scss/main.scss */
+div.content select, div.content input[type="text"]:focus, div.content input[type="email"]:focus, div.content input[type="password"]:focus {
+  outline: #636363;
+  box-shadow: 0 0 10px #dddddd;
+}
+/* line 141, ../scss/main.scss */
+div.content input[type="submit"] {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(top, #fafafa, #eeeeee);
+  background-image: -moz-linear-gradient(top, #fafafa, #eeeeee);
+  background-image: -o-linear-gradient(top, #fafafa, #eeeeee);
+  background-image: linear-gradient(top, #fafafa, #eeeeee);
+}
+/* line 143, ../scss/main.scss */
+div.content input[type="submit"]:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #fafafa));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #fafafa);
+  background-image: -moz-linear-gradient(top, #eeeeee, #fafafa);
+  background-image: -o-linear-gradient(top, #eeeeee, #fafafa);
+  background-image: linear-gradient(top, #eeeeee, #fafafa);
 }
 
-div.menu ul{
-    padding: 0;
-    margin: 0;
-    padding-left: .5em;
-    list-style-type: none;
-    line-height: 1.8em;
-    float: left;
-    display:inline-block;
-    width: 250px;
-    font-size: 1em;
-    border-right: solid 2px #aaaaaa;
+/* line 149, ../scss/main.scss */
+.error {
+  color: #cc0033;
+  clear: left;
+  padding-left: 0.5em;
 }
 
-div.menu ul.lastRight{
-    border-right: 0;
+/* line 155, ../scss/main.scss */
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+/* line 158, ../scss/main.scss */
+a:hover, a:visited:hover {
+  color: #0000cc;
 }
 
-div.menu ul li{
-    white-space:nowrap;
-}
-
-div.menu ul ul.submenu{
-    display: none;
-    font-weight: 500;
-    font-size: 0.9em;
-    line-height: 2em;
-    border: 0;
-}
-
-div.content{
-    margin: 0 auto; 
-    font-size: 1em;
-    margin-top: 4em;
-}
-
-div.content select, div.content input[type="text"], div.content input[type="submit"]{
-    font-size: .9em;
-    padding: .2em;
-    width: 20em;
-}
-
-div.content select, div.content input[type="text"]:focus {
-    outline: #000000;
-    -moz-box-shadow:    0 0 10px #dddddd;
-    -webkit-box-shadow: 0 0 10px #dddddd;
-    box-shadow: 0 0 10px #dddddd;
-}
-
-div.content input[type="submit"]{
-  background-image: -webkit-linear-gradient(top, #eeeeee, #dddddd);
-  background-image: -moz-linear-gradient(top, #eeeeee, #dddddd);
-  background-image: -ms-linear-gradient(top, #eeeeee, #dddddd);
-  background-image: -o-linear-gradient(top, #eeeeee, #dddddd);
-}
-
-div.content input[type="submit"]:hover{
-  background-image: -webkit-linear-gradient(top, #dddddd, #cccccc);
-  background-image: -moz-linear-gradient(top, #dddddd, #cccccc);
-  background-image: -ms-linear-gradient(top, #dddddd, #cccccc);
-  background-image: -o-linear-gradient(top, #dddddd, #cccccc);
-}
-
-div.content h1{
-    font-size: 1.2em;
-}
-
-div.content table{
-    width: 100%;
-    line-height: 1.5em;
-}
-
-div.content table th{
-    text-align: left;
-}
-
-div.content table th, div.content table td{
-    padding: .25em;
-}
-
-div.content table th.centred, div.content table td.centred{
-    text-align: center;
-}
-
-div.content table tr:nth-child(even) {background: #EFEFEF}
-div.content table tr:nth-child(odd) {background: #FFF}
-
-.error{
-    color: #cc0033;
-    clear:left;
-    padding-left: 0.5em;
-}
-
-div.content input[type="text"].error{
-    border: solid 1px #cc0033;
-    background-color: #ffcccc;
-}
-
-div.error input.input[type="text"]{
-    background-color: #ffcccc;
-}
-
-a, a:visited{
-    color: #000000;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #0000cc;
-}
-
-.hidden{
-    display: none;
+/* line 163, ../scss/main.scss */
+.hidden {
+  display: none;
 }
