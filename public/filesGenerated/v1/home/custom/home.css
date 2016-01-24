@@ -1,0 +1,21 @@
+﻿/* Page Temmplates customization */
+@font-face {
+    font-family: 'Different';
+    src: url('arberkley-webfont.eot');
+    src: url('../fonts/arberkley-webfont.wof@import url('file:///C:\eDetailers\Pfizer2\home\css\general.css');f2') format('woff2'),
+         url('../fonts/arberkley-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "ArialUploaded";
+    src: url(../fonts/arial.woff);
+}
+
+#wrapper{
+    background-image:url('../images/homePage.png');
+    background-repeat:no-repeat;
+    z-index:0;
+}

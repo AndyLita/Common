@@ -1,0 +1,85 @@
+﻿/* Page Menu customization */
+.menuTop, .menuLeft {
+    background-color:rgba(232, 232, 223,.5);
+    z-index:1000;
+    position:fixed;
+}
+
+
+.menuTop{
+    top:-80px;
+    left:204px;
+    width:572px;
+    height:90px;
+    padding:10px;
+    padding-left:14px;
+    padding-right:14px;
+    padding-top:0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.menuTop ul{
+    padding:0;
+    padding-left:4px;
+    padding-right:4px;
+}
+
+.menuTop ul li{
+    padding:0;
+    height:80px;
+    float:left;
+    list-style-type: none;
+}
+
+.menuTop li div.menuDiv{
+    height:80px;
+    width:130px;
+    background-repeat:no-repeat;
+    margin:0;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.menuLeft{
+    top:63px;
+    left:-133px;
+    width:143px;
+    height:642px;
+    padding:10px;
+    padding-left:0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.menuLeft ul{
+    padding:0;
+    padding-top:4px;
+    padding-bottom:4px;
+}
+
+.menuLeft ul li{
+    padding:0;
+    height:92px;
+}
+
+.menuLeft li div.menuDiv{
+    height:80px;
+    width:132px;
+    background-repeat:no-repeat;
+    margin:0;
+}
+
+
+.menuBottom{
+    background-image:url('../images/navigationBottom.png');
+    background-repeat:no-repeat;
+    z-index:10000;
+    position:fixed;
+    bottom:-80px;
+    left:143px;
+    width:738px;
+    height:101px;
+}
+
+

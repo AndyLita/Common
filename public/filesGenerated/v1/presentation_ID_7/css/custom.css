@@ -1,0 +1,118 @@
+﻿/* Page Temmplates customization */
+@font-face {
+    font-family: 'Different';
+    src: url('arberkley-webfont.eot');
+    src: url('../fonts/arberkley-webfont.woff2') format('woff2'),
+         url('../fonts/arberkley-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "ArialUploaded";
+    src: url(../fonts/arial.woff);
+}
+
+#wrapper{
+    background-image:url('../images/background.png');
+    background-repeat:no-repeat;
+    z-index:0;
+}
+
+#header, #footer {
+	position: fixed;
+    border:none;
+    background-image: none;
+    z-index: 100;
+}
+
+#header {
+	top:0;
+	left: 0;
+}
+
+#footer {
+	top:750px;
+	left: 0;
+}
+
+#contentRight{
+    left:1024px;
+    top:0;
+}
+
+#navLeft, #navRight, #exit{
+    position:fixed;
+    top:50px;
+    height:50px;
+    width:50px;
+    z-index:100;
+    display:none;
+}
+
+#navRight{
+    background-image:url('../images/background.png');
+    display:none;
+}
+
+#navLeft{
+    background-image:url('../images/background.png');
+    display:none;
+}
+
+#exit{
+	left:450px;
+    display:none;
+}
+
+#navLeft{
+    left:0;
+}
+
+#navRight{
+    left:974px;
+}
+
+/*Here we start to write css for the pages*/
+.title{
+    font-family:"ArialUploaded";
+	font-size: 40px;
+	line-height: 45px;
+    position:absolute;
+    left:60px;
+    top:60px;
+    color:#ff0000;
+}
+
+.subTitle{
+    font-family:Different;
+	font-size: 40px;
+	line-height: 45px;
+    position:absolute;
+    left:60px;
+    top:100px;
+    color:#ff7500;
+}
+
+.bodyText{
+    font-family:"ArialUploaded";
+	font-size: 20px;
+	line-height: 22px;
+    position:absolute;
+    left:60px;
+    top:160px;
+    color:#000000;
+}
+
+img.menuInPage{
+    position:absolute;
+    top:144px;
+    height:92px;
+    width:120px;
+}
+
+a, a:visited {
+    text-decoration:none;
+    color:#ff0000;
+}

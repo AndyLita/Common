@@ -1,0 +1,1 @@
+var activePages=[0,1];var allPages=[0,1];var pagesContent=['<h1 class="title">Title 2</h1>','<h1 class="title">Title test</h1><p>Hallo Lutz</p>'];var pageAutomaticAnimations=[];

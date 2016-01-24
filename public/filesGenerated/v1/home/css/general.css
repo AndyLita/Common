@@ -1,0 +1,52 @@
+﻿* {
+    margin:0; 
+    padding:0;
+    cursor:pointer;
+}
+
+body, #wrapper{
+	position: fixed;
+	top:0;
+	left: 0;
+    border:none;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width:1024px;
+    height:768px;
+}
+
+#content, #contentLeft, #contentRight {
+	position:absolute;
+    border:none;
+}
+
+#contentLeft, #contentRight {
+	display:none;
+}
+
+#content{
+    left:0;
+    top:0;
+}
+
+#contentLeft{
+    left:-1024px;
+    top:0;
+}
+
+#contentRight{
+    left:1024px;
+    top:0;
+}
+
+.popUp{
+	display: none;
+}
+
+.toggleDuringSwipe{
+	display: none;
+}
+
+.animatedOnEntry{
+	display: none;
+}

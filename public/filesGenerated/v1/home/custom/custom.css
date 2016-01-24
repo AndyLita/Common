@@ -1,0 +1,55 @@
+﻿/* Page Temmplates customization */
+@font-face {
+    font-family: 'Different';
+    src: url('arberkley-webfont.eot');
+    src: url('../fonts/arberkley-webfont.woff2') format('woff2'),
+         url('../fonts/arberkley-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "ArialUploaded";
+    src: url(../fonts/arial.woff);
+}
+
+#wrapper{
+    background-image:url('../images/homePage.png');
+    background-repeat:no-repeat;
+    z-index:0;
+}
+
+.menuTop{
+    background-image:url('../images/navigationTop.png');
+    background-repeat:no-repeat;
+    z-index:1000;
+    position:absolute;
+    top:-80px;
+    left:204px;
+    width:615px;
+    height:101px;
+}
+
+.menuLeft{
+    background-image:url('../images/navigationLeft.png');
+    background-repeat:no-repeat;
+    z-index:1000;
+    position:absolute;
+    top:63px;
+    left:-135px;
+    width:152px;
+    height:642px;
+}
+
+
+.menuBottom{
+    background-image:url('../images/navigationBottom.png');
+    background-repeat:no-repeat;
+    z-index:1000;
+    position:absolute;
+    bottom:-80px;
+    left:143px;
+    width:738px;
+    height:101px;
+}

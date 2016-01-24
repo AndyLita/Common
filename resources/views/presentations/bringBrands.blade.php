@@ -1,0 +1,1 @@
+{!!Form::select('brandID', $brandID, $brandIDSelected, array('id' => 'brandID')) !!}

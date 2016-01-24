@@ -1,0 +1,444 @@
+/*colors*/
+/*sizes*/
+/*mixins*/
+/*general */
+/* line 51, ../scss/main.scss */
+* {
+  font-family: Arial, sans-serif, Verdana;
+}
+
+/* line 55, ../scss/main.scss */
+html, body {
+  background-color: #efefef;
+  font-size: .9em;
+  height: 100%;
+}
+
+/* line 61, ../scss/main.scss */
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 66, ../scss/main.scss */
+a:hover {
+  color: #0000cc;
+}
+
+/* line 70, ../scss/main.scss */
+.error {
+  color: #cc0033;
+  clear: left;
+  padding-left: 0.5em;
+}
+
+/* line 76, ../scss/main.scss */
+.hidden {
+  display: none;
+}
+
+/* line 80, ../scss/main.scss */
+div.wrapper {
+  width: 90%;
+}
+
+/* line 84, ../scss/main.scss */
+div.wrapper, div.content, div.menu {
+  margin: 0 auto;
+}
+
+/*element specific*/
+/* line 90, ../scss/main.scss */
+div.menu {
+  font-size: 1em;
+  padding-bottom: 0.5em;
+  padding-top: .5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  font-weight: 700;
+  background: #fefefe;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fefefe 0%, #efefef 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #efefef));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fefefe 0%, #efefef 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fefefe 0%, #efefef 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fefefe 0%, #efefef 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fefefe 0%, #efefef 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */
+  border: solid 2px #aaaaaa;
+  border-top: 0;
+  -webkit-box-shadow: 0px 3px 5px #888888;
+  -moz-box-shadow: 0px 3px 5px #888888;
+  box-shadow: 0px 3px 5px #888888;
+  width: 100%;
+}
+/* line 109, ../scss/main.scss */
+div.menu ul {
+  padding: 0;
+  margin: 0;
+  padding-left: .5em;
+  list-style-type: none;
+  line-height: 1.8em;
+  float: left;
+  display: inline-block;
+  width: 200px;
+  font-size: 1em;
+  border-right: solid 2px #aaaaaa;
+}
+/* line 121, ../scss/main.scss */
+div.menu ul.lastRight {
+  border-right: 0;
+}
+/* line 125, ../scss/main.scss */
+div.menu ul.submenu {
+  display: none;
+  font-weight: 500;
+  font-size: 0.9em;
+  line-height: 2em;
+  border: 0;
+}
+/* line 133, ../scss/main.scss */
+div.menu ul li {
+  white-space: nowrap;
+}
+
+/* line 139, ../scss/main.scss */
+div.content {
+  margin: 0 auto;
+  font-size: 1em;
+  margin-top: 4em;
+  padding: 0;
+}
+/* line 145, ../scss/main.scss */
+div.content h1 {
+  font-size: 1.2em;
+}
+/* line 149, ../scss/main.scss */
+div.content div.navigatorPresentation {
+  width: 1024px;
+  height: 40px;
+  background-color: #cccccc;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  height: 50px;
+  border: 0;
+}
+/* line 161, ../scss/main.scss */
+div.content div.navigatorPresentation input {
+  text-align: center;
+  width: 2em;
+  padding: 0;
+  -webkit-appearance: none;
+  height: 32px;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* line 172, ../scss/main.scss */
+div.content input[type="text"], div.content input[type="submit"], div.content input[type="button"], div.content select, div.content textarea {
+  font-size: .9em;
+  padding: .2em;
+  width: 300px;
+  box-sizing: border-box;
+}
+/* line 179, ../scss/main.scss */
+div.content div.tableContainer {
+  display: table;
+}
+/* line 182, ../scss/main.scss */
+div.content div.tableRow {
+  display: table-row;
+}
+/* line 185, ../scss/main.scss */
+div.content div.tableCell {
+  display: table-cell;
+  padding: .5em;
+  padding-left: 0;
+  vertical-align: top;
+  min-width: 200px;
+}
+/* line 193, ../scss/main.scss */
+div.content div.navigatorMenu {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  z-index: 3;
+  -webkit-box-shadow: 5px 10px 10px #888888;
+  -moz-box-shadow: 5px 10px 10px #888888;
+  box-shadow: 5px 10px 10px #888888;
+  display: table;
+  vertical-align: top;
+  border: 1px solid #888888;
+}
+/* line 206, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorRow {
+  display: table-row;
+  height: auto;
+  vertical-align: top;
+}
+/* line 212, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorContent {
+  vertical-align: top;
+}
+/* line 214, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorContent h4 {
+  margin-top: .75em;
+  font-weight: 700;
+  margin-bottom: .25em;
+}
+/* line 221, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuTop, div.content div.navigatorMenu div.navigatorMenuBottom {
+  vertical-align: middle;
+}
+/* line 225, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft, div.content div.navigatorMenu div.navigatorContent, div.content div.navigatorMenu div.navigatorMenuTop {
+  display: table-cell;
+  padding: 0;
+  margin: 0;
+}
+/* line 230, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft, div.content div.navigatorMenu div.navigatorMenuTop, div.content div.navigatorMenu div.navigatorMenuBottom {
+  background-color: #efefef;
+}
+/* line 233, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft {
+  width: 60px;
+  background-color: #ffffff;
+  text-align: center;
+}
+/* line 237, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  display: block;
+}
+/* line 244, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li {
+  display: block;
+  background-repeat: no-repeat;
+  height: 48px;
+  width: 48px;
+  background-size: 40% 40%;
+  background-position: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+/* line 254, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li:hover {
+  background-size: 50% 50%;
+}
+/* line 257, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.slideMenu0 {
+  background-image: url("../images/presentation-icon_40_40.png");
+}
+/* line 260, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.slideMenu1 {
+  background-image: url("../images/text-icon_40_40.png");
+}
+/* line 263, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.slideMenu2 {
+  background-image: url("../images/image-icon_40_40.png");
+}
+/* line 266, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.slideMenu3 {
+  background-image: url("../images/video-icon_40_40.png");
+}
+/* line 269, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.slideMenu4 {
+  background-image: url("../images/zIndex-icon_40_40.png");
+}
+/* line 272, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.slideMenu5 {
+  background-image: url("../images/animations-icon_40_40.png");
+}
+/* line 275, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.slideMenu6 {
+  background-image: url("../images/offer-icon_40_40.png");
+}
+/* line 278, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.slideMenu7 {
+  background-image: url("../images/hiddenSlide-icon_40_40.png");
+}
+/* line 281, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.presentationMenu0 {
+  background-image: url("../images/slides-icon_40_40.png");
+}
+/* line 284, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.presentationMenu1 {
+  background-image: url("../images/add-below-icon_40_40.png");
+}
+/* line 287, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.presentationMenu2 {
+  background-image: url("../images/add-above-icon_40_40.png");
+}
+/* line 290, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.separatorSmall {
+  height: 0px;
+}
+/* line 293, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorMenuLeft ul li.separatorBig {
+  height: 5px;
+}
+/* line 300, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorContent {
+  width: 440px;
+  max-width: 440px;
+  height: 500px;
+  box-sizing: border-box;
+}
+/* line 305, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorContent div.innerMenuContent {
+  padding: 4.4px;
+  width: 440px;
+  max-width: 440px !important;
+  height: 500px;
+  box-sizing: border-box;
+}
+/* line 311, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorContent div.innerMenuContent div.tableCell {
+  min-width: 0;
+  width: 20px !important;
+}
+/* line 315, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorContent div.innerMenuContent input[type="text"] {
+  width: 40px;
+}
+/* line 318, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorContent div.innerMenuContent select {
+  width: 100px;
+}
+/* line 321, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorContent div.innerMenuContent input[type="submit"], div.content div.navigatorMenu div.navigatorContent div.innerMenuContent input[type="button"] {
+  width: 20px;
+}
+/* line 324, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorContent div.innerMenuContent textarea {
+  width: 422.4px;
+  height: 5em;
+  resize: none;
+  resize: vertical;
+}
+/* line 331, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorContent div.innerMenuContent div.navigatorMenuBottom {
+  width: 431.2px;
+  box-sizing: border-box;
+  line-height: 40px;
+  position: absolute;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  bottom: 0;
+  margin: 0 auto;
+}
+/* line 341, ../scss/main.scss */
+div.content div.navigatorMenu div.navigatorContent div.innerMenuContent div.navigatorMenuBottom input[type="button"] {
+  width: 80px;
+}
+/* line 349, ../scss/main.scss */
+div.content input[type="text"].error {
+  border: solid 1px #cc0033;
+  background-color: #ffcccc;
+}
+/* line 354, ../scss/main.scss */
+div.content input[type="submit"] {
+  background: #fefefe;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fefefe 0%, #efefef 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #efefef));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fefefe 0%, #efefef 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fefefe 0%, #efefef 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fefefe 0%, #efefef 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fefefe 0%, #efefef 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 356, ../scss/main.scss */
+div.content input[type="submit"]:hover {
+  background: #efefef;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #efefef 0%, #fefefe 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #fefefe));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #efefef 0%, #fefefe 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #efefef 0%, #fefefe 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #efefef 0%, #fefefe 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #efefef 0%, #fefefe 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 361, ../scss/main.scss */
+div.content select, div.content input[type="text"]:focus {
+  outline: black;
+  -webkit-box-shadow: 0 0 3px #888888;
+  -moz-box-shadow: 0 0 3px #888888;
+  box-shadow: 0 0 3px #888888;
+}
+/* line 367, ../scss/main.scss */
+div.content div.filter input[type="text"], div.content div.filter input[type="submit"], div.content div.filter select, div.content div.filter input[type="button"] {
+  width: 200px;
+}
+/* line 373, ../scss/main.scss */
+div.content table.showData {
+  width: 100%;
+  line-height: 1.5em;
+}
+/* line 376, ../scss/main.scss */
+div.content table.showData th {
+  text-align: left;
+}
+/* line 379, ../scss/main.scss */
+div.content table.showData th, div.content table.showData td {
+  padding: .25em;
+}
+/* line 381, ../scss/main.scss */
+div.content table.showData th.centred, div.content table.showData td.centred {
+  text-align: center;
+}
+/* line 385, ../scss/main.scss */
+div.content table.showData tr:nth-child(even) {
+  background: #f8f8f8;
+}
+/* line 386, ../scss/main.scss */
+div.content table.showData tr:nth-child(odd) {
+  background: #fefefe;
+}
+/* line 390, ../scss/main.scss */
+div.content div.filter {
+  padding-bottom: 1em;
+}
+
+/* line 395, ../scss/main.scss */
+.loading {
+  background-image: url("../images/loader.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}

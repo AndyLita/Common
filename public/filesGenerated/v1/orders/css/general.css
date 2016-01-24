@@ -1,0 +1,178 @@
+﻿@font-face {
+    font-family: "ArialUploaded";
+    src: url(../fonts/arial.woff);
+}
+
+* {
+    margin:0; 
+    padding:0;
+    font-family:ArialUploaded;
+    cursor:pointer;
+}
+
+.hidden{
+    display:none;
+}
+
+#wrapper{
+	position: fixed;
+	top:0;
+	left: 0;
+    border:none;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width:1024px;
+    height:768px;
+    background-image: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    color-stop(0, #90C3F5),
+	    color-stop(0.51, #D6FAFF),
+	    color-stop(1, #D6E9FF)
+    );
+    background-image: -o-linear-gradient(bottom, #90C3F5 0%, #D6FAFF 51%, #D6E9FF 100%);
+    background-image: -moz-linear-gradient(bottom, #90C3F5 0%, #D6FAFF 51%, #D6E9FF 100%);
+    background-image: -webkit-linear-gradient(bottom, #90C3F5 0%, #D6FAFF 51%, #D6E9FF 100%);
+    background-image: -ms-linear-gradient(bottom, #90C3F5 0%, #D6FAFF 51%, #D6E9FF 100%);
+    background-image: linear-gradient(to bottom, #90C3F5 0%, #D6FAFF 51%, #D6E9FF 100%);
+    }
+
+#wrapper div.formContainer, #wrapper div.tableHeaderContainer{
+    width:70%;
+    margin:0 auto;
+    height:600px;
+    padding:10px;
+    background-color:#808080;
+    overflow: auto;
+    background: -webkit-linear-gradient(#ffffff,#d1e2ea); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff,#d1e2ea); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff,#d1e2ea); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff,#d1e2ea); /* Standard syntax */
+}
+
+#wrapper div.tableHeaderContainer{
+    width:70%;
+    margin:0 auto;
+    margin-top:64px;
+    height:28px;
+    padding:10px;
+    background-color:#808080;
+    overflow: hidden;
+    background: -webkit-linear-gradient(#ffffff,#d1e2ea); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff,#d1e2ea); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff,#d1e2ea); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff,#d1e2ea); /* Standard syntax */
+    font-weight:700;
+}
+
+#wrapper div.formContainer{
+    width:70%;
+    margin:0 auto;
+    margin-top:0;
+    height:560px;
+    padding:10px;
+    background-color:#808080;
+    overflow: auto;
+    background: -webkit-linear-gradient(#ffffff,#d1e2ea); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff,#d1e2ea); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff,#d1e2ea); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff,#d1e2ea); /* Standard syntax */
+}
+
+#wrapper div.formContainer h1{
+    font-size:24px;
+    font-weight:700;
+    padding-left:10px;
+}
+
+#wrapper div.formContainer input{
+    font-size:20px;
+    height:30px;
+    width:40px;
+    text-align:center;
+    border:solid 1px #eaeaea;
+}
+
+#wrapper div.formContainer button.roundButton{
+  background: #d6e5f0;
+  background-image: -webkit-linear-gradient(top, #d6e5f0, #8bccf5);
+  background-image: -moz-linear-gradient(top, #d6e5f0, #8bccf5);
+  background-image: -ms-linear-gradient(top, #d6e5f0, #8bccf5);
+  background-image: -o-linear-gradient(top, #d6e5f0, #8bccf5);
+  background-image: linear-gradient(to bottom, #d6e5f0, #8bccf5);
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  font-size: 20px;
+  padding: 10px 14px 10px 14px;
+  text-decoration: none;
+  border:0;
+  width:44px;
+  text-align:center;
+}
+
+#wrapper div.formContainer label{
+    font-size:20px;
+    height:26px;
+    padding:4px;
+    width:4em;
+    text-align:center;
+}
+
+#wrapper div.formContainer table, #wrapper div.tableHeaderContainer table{
+    width:100%;
+    font-size:20px;
+}
+
+#wrapper div.formContainer table td, #wrapper div.tableHeaderContainer table td{
+    padding:3px;
+}
+
+#wrapper div.formContainer table td.brandName, #wrapper div.tableHeaderContainer table td.brandName{
+    text-align:left;
+}
+
+#wrapper div.formContainer table td.brandSKUType, #wrapper div.tableHeaderContainer table td.brandSKUType{
+    text-align:left;
+}
+
+#wrapper div.formContainer table td.brandSKU, #wrapper div.tableHeaderContainer table td.brandSKU{
+    text-align:left;
+}
+
+#wrapper div.formContainer table td.buttonHolder, #wrapper div.tableHeaderContainer table td.buttonHolder{
+    text-align:center;
+    width:50px;
+}
+
+#wrapper div.formContainer table td.inputHolder, #wrapper div.tableHeaderContainer table td.inputHolder{
+    width:50px;
+    text-align:center;
+}
+
+#wrapper .contentContainer{
+    overflow:hidden;
+}
+
+#resetButton{
+    position:fixed;
+    top:12px;
+    left:910px;
+    background:url("../images/closeButton.png");
+    background-repeat:no-repeat;
+    height:74px;
+    width:74px;
+    z-index:999;
+}
+
+#backButton{
+    position:fixed;
+    top:670px;
+    left:910px;
+    background:url("../images/backButton.png");
+    background-repeat:no-repeat;
+    height:74px;
+    width:74px;
+    z-index:999;
+}
