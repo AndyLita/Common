@@ -38,40 +38,40 @@
         <div class="navigatorMenuLeft">
             <ul id='slidesEditor' style="display:none;">
                 <li class="separatorSmall"></li>
-                <li class="slideMenu0" title="Edit Slides" id='switchTo-presentations'></li>                
+                <li id='slideMenu0' title="Edit Slides" data-hide="slides" data-show="presentations" ></li>                
                 <li class="separatorSmall"></li>
-                <li class="slideMenu1" title="Texts" id='slideMenu1' data-geturl='/slidesElements/createText'></li>
+                <li id='slideMenu1' class="getButton" title="Texts" data-requestUrl='/slidesElements/indexText' data-redirectUrl='/slidesElements/indexText' ></li>
                 <li class="separatorBig"></li> 
-                <li class="slideMenu2" title="Images"></li>   
+                <li id="slideMenu2" class="getButton" title="Images" data-requestUrl='/slidesElements/addImage' data-redirectUrl='/slidesElements/addImage' ></li>   
                 <li class="separatorBig"></li>                 
-                <li class="slideMenu3" title="Videos"></li>
+                <li id="slideMenu3" class="getButton" title="Videos"></li>
                 <li class="separatorBig"></li> 
-                <li class="slideMenu4" title="Vertical Position"></li>
+                <li id="slideMenu4" class="getButton" title="Vertical Position"></li>
                 <li class="separatorBig"></li> 
-                <li class="slideMenu5" title="Animations"></li>  
+                <li id="slideMenu5" class="getButton" title="Animations"></li>  
                 <li class="separatorBig"></li> 
-                <li class="slideMenu6" title="Offers"></li>  
+                <li id="slideMenu6" class="getButton" title="Offers"></li>  
                 <li class="separatorBig"></li> 
-                <li class="slideMenu7" title="Hidden Slides"></li>  
+                <li id="slideMenu7" class="getButton" title="Hidden Slides"></li>  
                 <li class="separatorSmall"></li>                
             </ul>
             <ul id='presentationsEditor'>
                 <li class="separatorSmall"></li>
-                <li class="presentationMenu0" title="Edit Presentation" id='switchTo-slides'></li>                
+                <li id="presentationMenu0" title="Edit Presentation" data-hide="presentations" data-show="slides" ></li>                
                 <li class="separatorSmall"></li>
-                <li class="presentationMenu1" title="Add Slide After" id='addSlide-after'></li>
+                <li class="addSlideButton" id="presentationMenu1" title="Add Slide After" data-position='after' data-functiontocallafter='OpenNewCreatedSlide'></li>
                 <li class="separatorBig"></li> 
-                <li class="presentationMenu2" title="Add Slide Before" id='addSlide-before'></li>   
+                <li class="addSlideButton" id="presentationMenu2" title="Add Slide Before" data-position='before' data-functiontocallafter='OpenNewCreatedSlide'></li>   
                 <li class="separatorBig"></li>                 
-                <li class="presentationMenu3" title="Videos"></li>
+                <li class="getButton" id="presentationMenu3" title="Videos"></li>
                 <li class="separatorBig"></li> 
-                <li class="presentationMenu4" title="Vertical Position"></li>
+                <li class="getButton" id="presentationMenu4" title="Vertical Position"></li>
                 <li class="separatorBig"></li> 
-                <li class="presentationMenu5" title="Animations"></li>  
+                <li class="getButton" id="presentationMenu5" title="Animations"></li>  
                 <li class="separatorBig"></li> 
-                <li class="presentationMenu6" title="Offers"></li>  
+                <li class="getButton" id="presentationMenu6" title="Offers"></li>  
                 <li class="separatorBig"></li> 
-                <li class="presentationMenu7" title="Hidden Slides"></li>  
+                <li class="getButton" id="presentationMenu7" title="Hidden Slides"></li>  
                 <li class="separatorSmall"></li>                
             </ul>            
         </div>
@@ -83,8 +83,16 @@
 @endsection
 
 @section('scripts')
+
 {!! Html::script('/scripts/jquery.validate.min.js') !!}
 {!! Html::script('/scripts/jquery-ui.min.js') !!}
+{!! Html::script('/scripts/fileUpload/vendor/jquery.ui.widget.js') !!}
+{!! Html::script('/scripts/fileUpload/jquery.iframe-transport.js') !!}
+{!! Html::script('/scripts/fileUpload/jquery.fileupload.js') !!}
+{!! Html::script('/scripts/fileUpload/jquery.fileupload.js') !!}
+<!--{!! Html::script('/scripts/fileUpload/imagepreview.js') !!}-->
 {!! Html::script('/scripts/presentationsShow.js') !!}
+
+
 @endsection 
 

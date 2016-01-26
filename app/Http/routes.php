@@ -35,6 +35,14 @@
     //slidesElements 
     Route::get('slidesElements/createText',['middleware' => 'auth','uses'=>'SlidesElementsController@createText']);
     Route::post('slidesElements/storeText',['middleware' => 'auth','uses'=>'SlidesElementsController@storeText']);
+    Route::post('slidesElements/bringPositions',['middleware' => 'auth','uses'=>'SlidesElementsController@bringPositions']);
+    Route::get('slidesElements/editTextGet',['middleware' => 'auth','uses'=>'SlidesElementsController@editTextGet']);
+    Route::post('slidesElements/editTextPost',['middleware' => 'auth','uses'=>'SlidesElementsController@editTextPost']);
+    Route::post('slidesElements/deleteText',['middleware' => 'auth','uses'=>'SlidesElementsController@deleteText']);
+    Route::get('slidesElements/indexText',['middleware' => 'auth','uses'=>'SlidesElementsController@indexText']);
+    
+    Route::get('slidesElements/addImage',['middleware' => 'auth','uses'=>'SlidesElementsController@addImage']);
+    Route::post('slidesElements/addImagePost',['middleware' => 'auth','uses'=>'SlidesElementsController@addImagePost']);
     
     Route::get('errors/index/{id}',['middleware' => 'auth','uses'=>'SlidesElementsController@create']);
     

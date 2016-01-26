@@ -125,4 +125,13 @@ class ListsQueries{
         return $slideElementsList;
     }    
     
+    public function textElementsInSlide($presentationID,$slideID){
+        $textElementsInSlideList = collect(\DB::table('slideselements')
+                            ->where('elementTypeID','=',1)
+                            ->where('presentationID','=',$presentationID)
+                            ->where('slideID','=',$slideID)
+                            ->get());
+        return $textElementsInSlideList;
+    }
+    
 }

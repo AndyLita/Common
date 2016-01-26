@@ -45,7 +45,7 @@ class SlidesController extends Controller
         $input = $request->all();
         $input = \Illuminate\Support\Facades\Input::except('_method', '_token'); 
         
-        var_dump($input);
+        //var_dump($input);
         
         if($rightsValidator->AllowEditSlide($input['presentationID'])==FALSE){
             return redirect('erorrs/index/1');
@@ -63,7 +63,9 @@ class SlidesController extends Controller
         $customHelper = new CustomHelper();
         $dataContentCrate = $customHelper->writeDataJSON($input['presentationID']);
         
-        return redirect('presentations/show?id='.$input['presentationID'].'&slideID='.$slide->id);
+        $newSlide = \DB::table('slides')->find($slide->id);
+        
+        return view ('slides/slideInfo',['newSlide'=>$newSlide]);
     }
 
     /**

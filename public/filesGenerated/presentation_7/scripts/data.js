@@ -28,525 +28,507 @@ var global_presentation_data =
                 "footer": {"src": "","size": {"width": "","height": ""}},
                 "pages": 
                     [{
-                            "type": "standard","id": "page-0","slideID":"1", 
+                            "type": "standard","id": "page-0","slideID":"52", 
                             "elements": [{
                                     "type": "text",
-                                    "id": "1",
+                                    "id": "101",
                                     "subtype": "title",
-                                    "value": "Title test und neue Sachen",
-                                    "classes": "-----",
-                                    "style": "font-weight:800",
-                                    "position": {"top": "100px","left": "100px"},
-                                    "size": {"width": "400px","height": "50px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                },{
-                                    "type": "text",
-                                    "id": "3",
-                                    "subtype": "title",
-                                    "value": "Hello",
-                                    "classes": "-----",
-                                    "style": "font-weight:800",
-                                    "position": {"top": "50px","left": "50px"},
-                                    "size": {"width": "100px","height": "100px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                },{
-                                    "type": "text",
-                                    "id": "5",
-                                    "subtype": "title",
-                                    "value": "Here we write a lot of text",
-                                    "classes": "-----",
+                                    "value": "3232323",
+                                    "classes": "bodyCopy",
                                     "style": "",
-                                    "position": {"top": "400px","left": "100px"},
-                                    "size": {"width": "500px","height": "20px"},
+                                    "position": {"top": "150px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "6",
+                                    "id": "106",
                                     "subtype": "title",
-                                    "value": "Here is the content ",
-                                    "classes": "-----",
+                                    "value": "????",
+                                    "classes": "red-Title",
                                     "style": "",
-                                    "position": {"top": "150px","left": "150px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "position": {"top": "200px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "7",
-                                    "subtype": "title",
-                                    "value": "Über das will ich nicht mehr zu viel sagen",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "150px","left": "150px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                },{
-                                    "type": "text",
-                                    "id": "8",
-                                    "subtype": "title",
-                                    "value": "Neue texte schreiben wir hier",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "150px","left": "150px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                },{
-                                    "type": "text",
-                                    "id": "9",
-                                    "subtype": "title",
-                                    "value": "Neue texte with <br /><br />break line",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "150px","left": "150px"},
-                                    "size": {"width": "250px","height": "250px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                },{
-                                    "type": "text",
-                                    "id": "10",
-                                    "subtype": "title",
-                                    "value": "Neue texte<br />mit break<br />und mehr break",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "150px","left": "150px"},
-                                    "size": {"width": "500px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                },{
-                                    "type": "text",
-                                    "id": "11",
-                                    "subtype": "title",
-                                    "value": "Test1<br />2<br />3<br />4",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "550px","left": "150px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-1","slideID":"21", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "29",
+                                    "id": "132",
                                     "subtype": "title",
                                     "value": "",
                                     "classes": "-----",
                                     "style": "",
                                     "position": {"top": "0px","left": "0px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "30",
+                                    "id": "133",
                                     "subtype": "title",
-                                    "value": "???",
+                                    "value": "",
                                     "classes": "-----",
                                     "style": "",
-                                    "position": {"top": "0px","left": "120px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "position": {"top": "0px","left": "0px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "31",
+                                    "id": "134",
                                     "subtype": "title",
-                                    "value": "Here we write some text",
+                                    "value": "",
                                     "classes": "-----",
                                     "style": "",
-                                    "position": {"top": "200px","left": "200px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "position": {"top": "0px","left": "0px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "32",
+                                    "id": "139",
                                     "subtype": "title",
-                                    "value": "Colored:red",
-                                    "classes": "-----",
+                                    "value": "lllllllllllllllllll",
+                                    "classes": "red-Title",
                                     "style": "",
-                                    "position": {"top": "200px","left": "200px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                },{
-                                    "type": "text",
-                                    "id": "33",
-                                    "subtype": "title",
-                                    "value": "Noch",
-                                    "classes": "-----",
-                                    "style": "color:red;font-size:40px;",
-                                    "position": {"top": "100px","left": "100px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-2","slideID":"20", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "36",
-                                    "subtype": "title",
-                                    "value": "Let us write something",
-                                    "classes": "-----",
-                                    "style": "color:green;font-size:40px;font-weight:800;",
-                                    "position": {"top": "100px","left": "150px"},
+                                    "position": {"top": "10px","left": "100px"},
                                     "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 }]},{
-                            "type": "standard","id": "page-3","slideID":"2", 
+                            "type": "standard","id": "page-1","slideID":"68", 
                             "elements": [{
                                     "type": "text",
-                                    "id": "4",
+                                    "id": "",
                                     "subtype": "title",
-                                    "value": "Title text oder anderes 2<br />",
-                                    "classes": "-----",
-                                    "style": "font-weigth:800;font-size:40px;color:blue;",
-                                    "position": {"top": "120px","left": "120px"},
-                                    "size": {"width": "400px","height": "50px"},
+                                    "value": "",
+                                    "classes": "",
+                                    "style": "",
+                                    "position": {"top": "px","left": "px"},
+                                    "size": {"width": "px","height": "px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-2","slideID":"67", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "",
+                                    "subtype": "title",
+                                    "value": "",
+                                    "classes": "",
+                                    "style": "",
+                                    "position": {"top": "px","left": "px"},
+                                    "size": {"width": "px","height": "px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-3","slideID":"65", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "",
+                                    "subtype": "title",
+                                    "value": "",
+                                    "classes": "",
+                                    "style": "",
+                                    "position": {"top": "px","left": "px"},
+                                    "size": {"width": "px","height": "px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-4","slideID":"64", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "",
+                                    "subtype": "title",
+                                    "value": "",
+                                    "classes": "",
+                                    "style": "",
+                                    "position": {"top": "px","left": "px"},
+                                    "size": {"width": "px","height": "px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-5","slideID":"55", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "58",
+                                    "subtype": "title",
+                                    "value": "Note: Reference Text",
+                                    "classes": "footerText",
+                                    "style": "",
+                                    "position": {"top": "1000px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "12",
+                                    "id": "61",
                                     "subtype": "title",
-                                    "value": "Text 2",
-                                    "classes": "-----",
+                                    "value": "Lorem ipsum footer notes will throw an error in most implementations because the JavaScript parser converts the string",
+                                    "classes": "footerText",
                                     "style": "",
-                                    "position": {"top": "200px","left": "150px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "position": {"top": "650px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "13",
+                                    "id": "62",
                                     "subtype": "title",
-                                    "value": "Hier schrieben<br />wir einen Paragrapgh",
-                                    "classes": "-----",
+                                    "value": "Save",
+                                    "classes": "bodyCopy",
                                     "style": "",
-                                    "position": {"top": "500px","left": "120px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "position": {"top": "150px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "14",
+                                    "id": "74",
                                     "subtype": "title",
-                                    "value": "dadada",
-                                    "classes": "-----",
+                                    "value": "Titel Rot",
+                                    "classes": "red-Title",
                                     "style": "",
-                                    "position": {"top": "350px","left": "350px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "position": {"top": "100px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "15",
+                                    "id": "80",
                                     "subtype": "title",
-                                    "value": "toke????",
-                                    "classes": "-----",
+                                    "value": "Custom text",
+                                    "classes": "bodyCopy",
                                     "style": "",
-                                    "position": {"top": "100px","left": "700px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-4","slideID":"3", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "",
-                                    "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
-                                    "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-5","slideID":"4", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "16",
-                                    "subtype": "title",
-                                    "value": "text in slide 1???",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "100px","left": "200px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-6","slideID":"24", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "",
-                                    "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
-                                    "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-7","slideID":"5", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "17",
-                                    "subtype": "title",
-                                    "value": "Text on page 2<br />da<br />dada<br />dadadadad<br /><br />dadadada<br /><br />dadad",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "100px","left": "100px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-8","slideID":"22", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "",
-                                    "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
-                                    "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-9","slideID":"6", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "18",
-                                    "subtype": "title",
-                                    "value": "Tex in page 3<br />dada<br />da<br />da<br />da<br />da<br />da<br />d<br />a",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "100px","left": "100px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "position": {"top": "180px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "21",
+                                    "id": "90",
                                     "subtype": "title",
-                                    "value": "MORE???",
-                                    "classes": "-----",
+                                    "value": "Titel",
+                                    "classes": "blue-Title",
                                     "style": "",
-                                    "position": {"top": "10px","left": "50px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "position": {"top": "50px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "22",
+                                    "id": "124",
                                     "subtype": "title",
-                                    "value": "2121212",
-                                    "classes": "-----",
+                                    "value": "eqeqweqweq",
+                                    "classes": "bodyCopy",
                                     "style": "",
-                                    "position": {"top": "10px","left": "70px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-10","slideID":"23", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "",
-                                    "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
-                                    "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-11","slideID":"7", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "19",
-                                    "subtype": "title",
-                                    "value": "Text on page 4???<br /><br />dada<br />da<br />d<br />adada",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "100px","left": "100px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-12","slideID":"25", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "",
-                                    "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
-                                    "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-13","slideID":"8", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "20",
-                                    "subtype": "title",
-                                    "value": "Text==<br />page 5",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "100px","left": "110px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-14","slideID":"9", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "",
-                                    "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
-                                    "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-15","slideID":"10", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "23",
-                                    "subtype": "title",
-                                    "value": "Text in slide 1???",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "100px","left": "100px"},
-                                    "size": {"width": "150px","height": "150px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-16","slideID":"11", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "",
-                                    "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
-                                    "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-17","slideID":"12", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "",
-                                    "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
-                                    "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-18","slideID":"13", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "",
-                                    "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
-                                    "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-19","slideID":"14", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "",
-                                    "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
-                                    "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
-                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-20","slideID":"15", 
-                            "elements": [{
-                                    "type": "text",
-                                    "id": "24",
-                                    "subtype": "title",
-                                    "value": "Text is here????",
-                                    "classes": "-----",
-                                    "style": "",
-                                    "position": {"top": "100px","left": "100px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "position": {"top": "250px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "25",
+                                    "id": "125",
                                     "subtype": "title",
-                                    "value": "Text is here????",
-                                    "classes": "-----",
+                                    "value": "ewewewewewe<br />ewewewe<br />ewewew<br />ewe<br />wewe<br />we<br />we<br />we<br />we<br />we<br />we<br />we<br />wewe",
+                                    "classes": "red-Title",
                                     "style": "",
                                     "position": {"top": "100px","left": "100px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "26",
+                                    "id": "126",
                                     "subtype": "title",
-                                    "value": "Text is here????",
-                                    "classes": "-----",
+                                    "value": "ewwewew",
+                                    "classes": "footerText",
                                     "style": "",
-                                    "position": {"top": "100px","left": "100px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "position": {"top": "650px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 },{
                                     "type": "text",
-                                    "id": "27",
+                                    "id": "127",
                                     "subtype": "title",
-                                    "value": "Text is here????",
+                                    "value": "ewewe",
+                                    "classes": "bodyCopy",
+                                    "style": "",
+                                    "position": {"top": "150px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-6","slideID":"66", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "135",
+                                    "subtype": "title",
+                                    "value": "Tilu test",
+                                    "classes": "red-Title",
+                                    "style": "",
+                                    "position": {"top": "100px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-7","slideID":"56", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "50",
+                                    "subtype": "title",
+                                    "value": "Hier ist body Copy ",
+                                    "classes": "bodyCopy",
+                                    "style": "",
+                                    "position": {"top": "150px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "78",
+                                    "subtype": "title",
+                                    "value": "Lorem ipsum",
+                                    "classes": "blue-Title",
+                                    "style": "",
+                                    "position": {"top": "100px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "79",
+                                    "subtype": "title",
+                                    "value": "Footer",
+                                    "classes": "footerText",
+                                    "style": "",
+                                    "position": {"top": "650px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-8","slideID":"57", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "51",
+                                    "subtype": "title",
+                                    "value": "Titel",
+                                    "classes": "red-Title",
+                                    "style": "",
+                                    "position": {"top": "100px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "52",
+                                    "subtype": "title",
+                                    "value": "Body Copy",
+                                    "classes": "bodyCopy",
+                                    "style": "",
+                                    "position": {"top": "150px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-9","slideID":"60", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "81",
+                                    "subtype": "title",
+                                    "value": "Titel",
+                                    "classes": "blue-Title",
+                                    "style": "",
+                                    "position": {"top": "100px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "82",
+                                    "subtype": "title",
+                                    "value": "Lorem ipsum",
+                                    "classes": "bodyCopy",
+                                    "style": "",
+                                    "position": {"top": "150px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "85",
+                                    "subtype": "title",
+                                    "value": "Red",
+                                    "classes": "red-Title",
+                                    "style": "",
+                                    "position": {"top": "50px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "86",
+                                    "subtype": "title",
+                                    "value": "Text neu",
+                                    "classes": "red-Title",
+                                    "style": "color:green",
+                                    "position": {"top": "200px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "87",
+                                    "subtype": "title",
+                                    "value": "Footer text",
+                                    "classes": "footerText",
+                                    "style": "",
+                                    "position": {"top": "650px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-10","slideID":"58", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "53",
+                                    "subtype": "title",
+                                    "value": "titel",
+                                    "classes": "red-Title",
+                                    "style": "",
+                                    "position": {"top": "100px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "54",
+                                    "subtype": "title",
+                                    "value": "body",
+                                    "classes": "bodyCopy",
+                                    "style": "",
+                                    "position": {"top": "150px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-11","slideID":"59", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "75",
+                                    "subtype": "title",
+                                    "value": "Blue Titel",
+                                    "classes": "blue-Title",
+                                    "style": "",
+                                    "position": {"top": "100px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "76",
+                                    "subtype": "title",
+                                    "value": "Hier wir schreibe lorem ipsum",
+                                    "classes": "bodyCopy",
+                                    "style": "",
+                                    "position": {"top": "150px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-12","slideID":"69", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "",
+                                    "subtype": "title",
+                                    "value": "",
+                                    "classes": "",
+                                    "style": "",
+                                    "position": {"top": "px","left": "px"},
+                                    "size": {"width": "px","height": "px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-13","slideID":"50", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "38",
+                                    "subtype": "title",
+                                    "value": "OOPPs",
                                     "classes": "-----",
                                     "style": "",
                                     "position": {"top": "100px","left": "100px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-21","slideID":"26", 
-                            "elements": [{
+                                },{
                                     "type": "text",
-                                    "id": "",
+                                    "id": "41",
                                     "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
+                                    "value": "Mehr mit rot?",
+                                    "classes": "red-Title",
                                     "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
+                                    "position": {"top": "100px","left": "150px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-22","slideID":"16", 
-                            "elements": [{
+                                },{
                                     "type": "text",
-                                    "id": "28",
+                                    "id": "42",
                                     "subtype": "title",
-                                    "value": "TextOOOOOOOOOOO<br />OOOOO",
+                                    "value": "Mehr mit rot?",
+                                    "classes": "red-Title",
+                                    "style": "",
+                                    "position": {"top": "100px","left": "150px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "136",
+                                    "subtype": "title",
+                                    "value": "3232323",
+                                    "classes": "red-Title",
+                                    "style": "",
+                                    "position": {"top": "100px","left": "-40px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "137",
+                                    "subtype": "title",
+                                    "value": "eweweweewew",
+                                    "classes": "red-Title",
+                                    "style": "",
+                                    "position": {"top": "200px","left": "200px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "138",
+                                    "subtype": "title",
+                                    "value": "qwqwqwq3232",
                                     "classes": "-----",
                                     "style": "",
+                                    "position": {"top": "0px","left": "0px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                }]},{
+                            "type": "standard","id": "page-14","slideID":"53", 
+                            "elements": [{
+                                    "type": "text",
+                                    "id": "40",
+                                    "subtype": "title",
+                                    "value": "Titel mit rote Farbe",
+                                    "classes": "red-Title",
+                                    "style": "",
                                     "position": {"top": "100px","left": "100px"},
-                                    "size": {"width": "150px","height": "150px"},
+                                    "size": {"width": "1024px","height": "768px"},
+                                    "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
+                                },{
+                                    "type": "text",
+                                    "id": "59",
+                                    "subtype": "title",
+                                    "value": "Footer Notes",
+                                    "classes": "footerText",
+                                    "style": "",
+                                    "position": {"top": "1000px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 }]},{
-                            "type": "standard","id": "page-23","slideID":"17", 
+                            "type": "standard","id": "page-15","slideID":"51", 
                             "elements": [{
                                     "type": "text",
-                                    "id": "",
+                                    "id": "39",
                                     "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
+                                    "value": "Red?",
+                                    "classes": "red-Title",
                                     "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
+                                    "position": {"top": "100px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 }]},{
-                            "type": "standard","id": "page-24","slideID":"18", 
+                            "type": "standard","id": "page-16","slideID":"54", 
                             "elements": [{
                                     "type": "text",
-                                    "id": "",
+                                    "id": "43",
                                     "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
+                                    "value": "Titel",
+                                    "classes": "red-Title",
                                     "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
+                                    "position": {"top": "100px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
-                                }]},{
-                            "type": "standard","id": "page-25","slideID":"19", 
-                            "elements": [{
+                                },{
                                     "type": "text",
-                                    "id": "",
+                                    "id": "60",
                                     "subtype": "title",
-                                    "value": "",
-                                    "classes": "",
+                                    "value": "650 footer",
+                                    "classes": "footerText",
                                     "style": "",
-                                    "position": {"top": "px","left": "px"},
-                                    "size": {"width": "px","height": "px"},
+                                    "position": {"top": "650px","left": "100px"},
+                                    "size": {"width": "1024px","height": "768px"},
                                     "action": {"animation": "","type": "","triggerElem": "","hideElem": "","params": ""}
                                 }]}]}]};

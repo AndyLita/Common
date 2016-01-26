@@ -1,11 +1,19 @@
+<div class="navigatorMenuTop">
+    <div id="info">Add New Text</div>
+</div>    
 <form id="navigatorMenuForm">
+<div class="tableContainer">
+     <div class="tableRow" style="text-align: center">
+        <h4>Predefined Styling</h4>         
+    </div>
+</div>
 <div class="tableContainer">
     <div class="tableRow" style="vertical-align: middle">
         <div class="tableCell">
-            <h4>Class</h4>
+            Class
         </div>        
         <div class="tableCell">
-            {!!Form::select('cssClassID', $cssClassID, $cssClassID) !!}
+            {!!Form::select('cssClassID', $cssClassID, $cssClassID, array('id' => 'cssClassID','data-posturl' => '/slidesElements/bringPositions', 'data-functiontocallafter'=>'FillInPosXandV')) !!}
         </div>
         <div class="tableCell">
             PosX
@@ -62,6 +70,6 @@
 </form>
 
 <div class="navigatorMenuBottom">
-    <input type="button" value="Save" id='saveButton' data-posturl='/slidesElements/storeText' data-redirectUrl='/slidesElements/editText' />      
-    <input type="button" value="Cancel" id='cancelButton' />  
+    <input type="button" value="Save" class="actionButton" id="createNewTextButton" data-requestUrl='/slidesElements/storeText' data-redirectUrl='/slidesElements/editText'/>   
+    <input type="button" value="Save & New" class="actionButton" id='saveAndNewTtextButton' data-requestUrl='/slidesElements/storeText' data-redirectUrl='/slidesElements/createText' />    <input type="button" value="Cancel" id="cancelButton" class="getButton" data-requestUrl='/slidesElements/indexText' data-redirectUrl='/slidesElements/indexText' />  
 </div>

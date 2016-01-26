@@ -254,38 +254,38 @@ div.content{
                        &:hover{
                            background-size: 50% 50%;
                        }
-                       &.slideMenu0{
+                       &#slideMenu0{
                            background-image: url('../images/presentation-icon_40_40.png');   
                        }                       
-                       &.slideMenu1{
+                       &#slideMenu1{
                            background-image: url('../images/text-icon_40_40.png');
                        }
-                       &.slideMenu2{
+                       &#slideMenu2{
                            background-image: url('../images/image-icon_40_40.png');
                        }    
-                       &.slideMenu3{
+                       &#slideMenu3{
                            background-image: url('../images/video-icon_40_40.png');
                        }
-                       &.slideMenu4{
+                       &#slideMenu4{
                            background-image: url('../images/zIndex-icon_40_40.png');
                        }                          
-                       &.slideMenu5{
+                       &#slideMenu5{
                            background-image: url('../images/animations-icon_40_40.png');
                        }  
-                       &.slideMenu6{
+                       &#slideMenu6{
                            background-image: url('../images/offer-icon_40_40.png');
                        }      
-                       &.slideMenu7{
+                       &#slideMenu7{
                            background-image: url('../images/hiddenSlide-icon_40_40.png');
                        }   
-                       &.presentationMenu0{
+                       &#presentationMenu0{
                            background-image: url('../images/slides-icon_40_40.png');
                        }
-                       &.presentationMenu1{
-                           background-image: url('../images/add-below-icon_40_40.png');
+                       &#presentationMenu1{
+                           background-image: url('../images/icon_after_40_40.png');
                        }
-                       &.presentationMenu2{
-                          background-image: url('../images/add-above-icon_40_40.png');
+                       &#presentationMenu2{
+                          background-image: url('../images/icon_before_40_40.png');
                        }
                        &.separatorSmall{
                            height: 0px;
@@ -308,9 +308,12 @@ div.content{
                 max-width: $navigatorContent !important;
                 height: $navigatorMenuSize;
                 box-sizing: border-box;
+/*                overflow: scroll;
+                overflow-x: hidden;*/
                 & div.tableCell{
                     min-width: 0;
                     width: 20px !important;
+                    vertical-align: middle;
                 }
                 & input[type="text"]{
                     width: 40px;
@@ -328,19 +331,36 @@ div.content{
                     resize: vertical;
                     
                 }
-                & div.navigatorMenuBottom {
+                & div.navigatorMenuTop, div.navigatorMenuBottom {
+                    margin-top:0 !important;
                     width: $navigatorContent*.98;
                     box-sizing: border-box;
+                    height:$heightNavigatorTop;
                     line-height: $heightNavigatorTop;
-                    position: absolute;
                     display:table-cell; 
                     vertical-align: middle;
-                    text-align: center;
-                    bottom: 0;   
                     margin: 0 auto;
+                    text-align: center;
                     & input[type="button"]{
                         width: 80px;
                     }
+                    & .errorField{
+                        background-color:$errorColor;
+                        color:#FFFFFF;
+                        text-align: left;
+                    }
+                }
+                & div.navigatorMenuBottom {
+                    position: absolute;
+                    bottom: 0;
+                }  
+                & div.navigatorMenuTop{
+                    & div {
+                        font-weight: 700;
+                    }
+                }
+                & table{
+                    margin-bottom: 40px;
                 }
             }
         }

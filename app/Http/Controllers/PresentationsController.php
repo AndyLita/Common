@@ -159,7 +159,7 @@ class PresentationsController extends Controller
         $slideData['userID']=(int) $user['id'];
         \DB::table('slides')->insert($slideData);
         
-        return redirect('presentations/show/'.$presentation->id);
+        return redirect('presentations/show/?id='.$presentation->id);
     }
 
     /**

@@ -2,6 +2,7 @@
 <html>
     <?php Session::put('locale',Lang::getLocale()); ?>
     <head>
+            <link rel="shortcut icon" href="../images/favicon.ico" type="image/vnd.microsoft.icon" />
             <title>@yield('pageTitle')</title>
             <input type="text" id="baseURL" class='hidden' value='{{ url()}}' />
             {!! Html::style('/css/normalize.css') !!}

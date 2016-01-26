@@ -13,6 +13,7 @@ class SlidesSorter{
         //we get the records before or after the neighbor
         //we fix the operand and the position of the slide to place 
         $operandForQuery = '>';//after scenario
+        $extrValue=0;
         if($positionVsNeighbor=='before'){
             $operandForQuery = '>=';
             \DB::table('slides')->where('id',$slideToPlaceID)->update(['orderInPresentation'=>$currentReferencePosition]);

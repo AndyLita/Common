@@ -1,0 +1,1 @@
+<input type='hidden' id="newSlideID" value="{{$newSlide->orderInPresentation}}" />
